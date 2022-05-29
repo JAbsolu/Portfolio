@@ -58,6 +58,13 @@ img {
     max-width: 100%;
 }
 
+@media (max-width:600px) {
+    body,
+    header {
+        font-size: 10.5pt;
+    }
+}
+
 
 /* typography */
 
