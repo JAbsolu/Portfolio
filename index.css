@@ -46,6 +46,7 @@ header {
 
 body {
     font-size: var(--fs-body);
+    height: 100vh;
 }
 
 section {
