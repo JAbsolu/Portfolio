@@ -245,22 +245,21 @@ strong {
 }
 
 @media (max-width: 800px) {
+    body {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .footer {
+        border-top: solid 1px var(--dark-accent);
+    }
+
     .footer__list {
-        display: grid;
-        grid-auto-flow: row;
-        grid-column-gap: 1em;
+        display: block;
         font-size: .9rem;
     }
 
-    .footer__link:nth-child(3) {
-        margin-right: 2em;
-    }
-
-    .footer__link:nth-child(3) {
-        display: block;
-    }
-
-    .footer__link:nth-child(4) {
-            display: block;
+    .footer__list-item {
+        padding-bottom: 1em;
     }
 }
