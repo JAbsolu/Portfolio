@@ -94,8 +94,40 @@ strong {
 
 /* header */
 
+.logo-and-hamburger__section {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-column-gap: .6em;
+}
 .logo_text {
     text-align: center;
+}
+
+.hamburger__menu {
+    display: none;
+    margin-top: 7.5px;
+    background: var(--dark-accent);
+    height: 1.5px;
+    width: 35px;
+}
+
+.hamburger__menu, .hamburger__menu > span {
+    transition: all 1s ease-in-out;
+}
+
+.hamburger__menu:nth-child(1).active {
+    width: 0;
+    transition: 1s;
+}
+
+.hamburger__menu:nth-child(2).active {
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.hamburger__menu:nth-child(3).active {
+    transform: translateY(-8px ) rotate(-45deg);
+    transition: 1s;
 }
 
 .navigation__list {
