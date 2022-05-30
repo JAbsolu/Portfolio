@@ -135,6 +135,42 @@ strong {
     }
 }
 
+@media (max-width:800px) {
+    .logo-and-hamburger__section {
+        border-bottom: solid 1px var(--light-accent);
+    }
+
+    .hamburger__menu {
+        display: block;
+        z-index: 3;
+    }
+
+    .navigation {
+        margin-left: 100%;
+        margin-top: -1.5em;
+    }
+
+    .navigation.active {
+        margin-left: 0;
+        transition: ease-in-out ;
+        z-index: 5;
+    }
+
+    .navigation__list {
+        display: block;
+        text-align: center;
+        height: 8em;
+    }
+
+    .navigation__list--item {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .introduction__image-container {
+        margin-top: -1.2em;
+    }
+}
 
 
 /* Introduction styles */
