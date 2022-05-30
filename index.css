@@ -102,7 +102,7 @@ strong {
 .logo-and-hamburger__section {
     display: grid;
     grid-template-columns: 7fr 1fr;
-    grid-column-gap: .6em;
+    grid-column-gap: .2em;
 }
 
 .logo_text {
