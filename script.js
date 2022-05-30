@@ -7,4 +7,4 @@ toggle_menu.addEventListener('click', () => {
         bar.classList.toggle('active');
     })
     show_nav.classList.toggle("active");
-})
+});
