@@ -58,10 +58,14 @@ img {
     max-width: 100%;
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
     body,
     header {
         font-size: 10.5pt;
+    }
+    
+     section {
+        margin-top: 2em;
     }
 }
 
@@ -174,24 +178,23 @@ strong {
 
     .hamburger__menu {
         display: block;
-        z-index: 3;
     }
 
     .navigation {
-        margin-left: 100%;
-        margin-top: -1.5em;
+         display: none;
     }
 
     .navigation.active {
-        margin-left: 0;
-        transition: ease-in-out ;
-        z-index: 5;
+        display: block;
+        transition: ease 1s;
+        z-index: 2;
+        position: fixed;
+        width: 100%;
     }
 
     .navigation__list {
         display: block;
         text-align: center;
-        height: 8em;
     }
 
     .navigation__list--item {
@@ -200,7 +203,8 @@ strong {
     }
 
     .introduction__image-container {
-        margin-top: -1.2em;
+        margin-top: 1em;
+        z-index: 1;
     }
 }
 
