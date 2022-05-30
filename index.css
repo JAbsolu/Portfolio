@@ -15,6 +15,7 @@
     --light-accent: #2A9192;
     --light-color: #fff;
     --dark-color: #000;
+    --dark-accent-transp: #135454f5;
 
     /* typography */
     --fw-bold: 900;
@@ -190,11 +191,13 @@ strong {
         z-index: 2;
         position: fixed;
         width: 100%;
+        background: var(--dark-accent-transp);
     }
 
     .navigation__list {
         display: block;
         text-align: center;
+        background: transparent;
     }
 
     .navigation__list--item {
