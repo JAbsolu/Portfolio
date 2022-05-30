@@ -302,6 +302,12 @@ strong {
     transition:  1s ease-in-out;
 }
 
+.call__to-action,
+.call__to-action--button,
+.call__to-action--button:hover {
+    transition: all ease-in-out 1s;
+}
+
 @media (max-width:600px) {
     .call__to-action--button {
         margin-left: 0;
