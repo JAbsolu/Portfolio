@@ -101,11 +101,16 @@ strong {
 
 .logo-and-hamburger__section {
     display: grid;
-    grid-template-columns: 9fr 1fr;
+    grid-template-columns: 8fr 1fr;
     grid-column-gap: .6em;
 }
+
 .logo_text {
     text-align: center;
+}
+
+.hamburger_toggle {
+    cursor: pointer;
 }
 
 .hamburger__menu {
