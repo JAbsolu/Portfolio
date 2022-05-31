@@ -26,6 +26,13 @@ html {
     font-family: var(--font-family);
 }
 
+.section__text {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* typography */
+
 .title {
     color: var(--dark-accent);
     margin-bottom: 1.5em;
@@ -35,6 +42,7 @@ html {
 
 .subtitle {
     color: var(--light-accent);
+    margin-bottom: 1em;
 }
 
 /* skill section */
@@ -75,7 +83,7 @@ html {
     }
 
     .skill__img {
-        max-width: 75%;
+        max-width: 100%;
     }
 
 }
@@ -131,20 +139,16 @@ html {
         margin: 2em 0;
     }
 
-    .subtitle {
-        text-align: left;
-        padding-left: 2em;
-    }
-
-    .section__text { padding: 0 2.5em;}
-    .project_button {
-        margin-left: 35%;
-    }
-
   img {
-      max-width: 80%;
+      max-width: 100%;
       margin-left: auto;
       margin-right: auto;
+  }
+
+  .project_button {
+    margin: 2em 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 
 }
